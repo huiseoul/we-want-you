@@ -142,9 +142,10 @@ gulp.task('serve:test', () => {
 
 // inject bower components
 gulp.task('wiredep', () => {
-  gulp.src('app/styles/*.scss')
+  gulp.src('app/styles/main.scss')
     .pipe(wiredep({
-      ignorePath: /^(\.\.\/)+/
+      exclude: ['bootstrap-sass'],
+      ignorePath: /^(\.\.\/)+/,
     }))
     .pipe(gulp.dest('app/styles'));
 
