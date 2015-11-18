@@ -1,9 +1,8 @@
-$icon-font-path: '../fonts/';
-
 // bower:scss
 // endbower
 @import 'variables';
 @import 'bootstrap';
+@import 'navbar';
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -17,11 +16,4 @@ $icon-font-path: '../fonts/';
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
 }

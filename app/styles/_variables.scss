@@ -1,2 +1,11 @@
 $brand-primary: #e91e63;
-$font-family-sans-serif: 'Spoqa Han Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+$font-family-sans-serif: 'Spoqa Han Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$navbar-default-bg: #fff;
+$navbar-default-border: darken($brand-primary, 6.5%);
+
+$grid-gutter-width: 30px;
+$container-tablet: (720px + $grid-gutter-width);
+$container-desktop: $container-tablet;
+$container-large-desktop: $container-tablet;
