@@ -1,5 +1,6 @@
 .navbar-logo {
-  height: $navbar-height - 4px;
+  height: $navbar-height - 7px;
+  padding-left: 10px;
 }
 
 .navbar-default {
@@ -7,4 +8,7 @@
   border-left: none;
   border-right: none;
   border-radius: 0;
+  border-bottom-width: 2px;
+
+  margin-bottom: 0;
 }
