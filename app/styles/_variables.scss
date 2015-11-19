@@ -11,4 +11,7 @@ $container-desktop: $container-tablet;
 $container-large-desktop: $container-tablet;
 
 $jumbotron-bg: #fff;
-$jumbotron-color: #3e6586;
+$jumbotron-color: $brand-primary;
+
+$font-size-base: 15px;
+$blockquote-font-size: $font-size-base;
