@@ -15,6 +15,10 @@
  */
 * { font-family: 'Spoqa Han Sans', 'Sans-serif'; }
 
+p {
+  font-size: 15px;
+}
+
 .mdl-button {
   background-color: #e91e63;
 }
